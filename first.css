@@ -1,0 +1,309 @@
+* {
+    font-family: "Atkinson Hyperlegible Mono", sans-serif;
+
+}
+
+.call {
+    color: whitesmoke;
+    background: linear-gradient(to right, #0ACEFE, #2699fb);
+}
+
+.what {
+    color: rgb(23, 17, 17);
+    background: linear-gradient(to right, #0afe3b, #94e58b);
+}
+
+.pic {
+    border-radius: 50px;
+
+}
+
+.con {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navv,
+.du {
+    background: linear-gradient(to left, rgb(195, 232, 250), rgb(18, 118, 138));
+}
+
+.navv {
+    position: sticky;
+}
+
+.skill {
+    background: linear-gradient(to right, #0ACEFE, #0d4678);
+}
+
+.skill-p {
+    /* height: 150px;
+    width: 200px; */
+    border-radius: 5px;
+}
+
+.skill-c {
+    /* height: 350px;
+width: 232px; */
+    border-radius: 5px;
+}
+
+.q {
+    justify-content: center;
+    align-self: center;
+    padding-top: 65px;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-bottom: 50px;
+    font-family: "Dancing Script", cursive;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+
+
+.ab1 {
+    position: relative;
+
+
+}
+
+.ab::before {
+    background: url('img/dur11.jpg') no-repeat center;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.para {
+    padding: 80px 200px;
+    font-weight: bold;
+
+}
+
+.para-h {
+    border-bottom: 2px solid black;
+}
+
+.edu {
+    background: linear-gradient(to right, #0ACEFE, #0d4678);
+ 
+}
+.edu a{
+    text-decoration: none;
+    color: #000;
+}
+
+.vp {
+    position: relative;
+}
+
+.v {
+
+    position: absolute;
+    /* left: 0; */
+    top: 0;
+    /* bottom: 0; */
+    right: 0;
+    z-index: -1;
+    opacity: o.3;
+}
+
+.vv {
+    padding: 50px 200px;
+    font-weight: bold;
+    color: #f9fafa;
+    font-size: 20px;
+    height: 400px;
+}
+
+.vh {
+    border-bottom: 2px solid white;
+    box-shadow: 5px 5px 15px 10px rgb(45, 45, 45);
+}
+
+.vx {
+    background: linear-gradient(to left, #0ACEFE, #0d4678);
+}
+
+.ad {
+    background: linear-gradient(to right, #0ACEFE, #0d4678);
+
+}
+
+.map {
+    background: linear-gradient(to right, #eb7738, #fbe200f0);
+}
+
+
+/*  model progress bar */
+.mb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3fdfd;
+}
+
+.mb1 {
+    width: 160px;
+    height: 160px;
+    /* background-color: #0ACEFE; */
+    position: relative;
+}
+
+.outer {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.inner {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    /* border: 1px solid red; */
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+        inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+        -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+        0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+        0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.l{
+    fill: none;
+    stroke:rgb(10, 96, 111);
+    stroke-width: 20px;
+    stroke-dasharray: 420;
+    stroke-dashoffset:420;
+    animation: anil 1s linear forwards;
+}
+.w{
+        fill: none;
+        stroke:rgb(10, 96, 111);
+        stroke-width: 20px;
+        stroke-dasharray: 420;
+        stroke-dashoffset:420;
+        animation: aniw 1s linear forwards;
+}
+.p{
+    fill: none;
+    stroke:rgb(10, 96, 111);
+    stroke-width: 20px;
+    stroke-dasharray: 420;
+    stroke-dashoffset:420;
+    animation: anip 1s linear forwards;
+}
+
+.d{
+    fill: none;
+    stroke:rgb(10, 96, 111);
+    stroke-width: 20px;
+    stroke-dasharray: 420;
+    stroke-dashoffset:420;
+    animation: anid 1s linear forwards;
+}
+.t{
+    fill: none;
+    stroke:rgb(10, 96, 111);
+    stroke-width: 20px;
+    stroke-dasharray: 420;
+    stroke-dashoffset:420;
+    animation: anit 1s linear forwards;
+}
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+@keyframes anil{
+    100%{
+        stroke-dashoffset: 105;
+    }
+
+}
+@keyframes aniw{
+    100%{
+        stroke-dashoffset: 147;
+    }
+
+}
+@keyframes anip{
+    100%{
+        stroke-dashoffset: 105;
+    }
+
+}
+@keyframes anid{
+    100%{
+        stroke-dashoffset: 84;
+    }
+
+}
+@keyframes anit{
+    100%{
+        stroke-dashoffset: 42;
+    }
+
+}
+
+/*  */
+
+.hs h6{
+    padding: 5px;
+}
+.hs-1{
+    background: linear-gradient(to left, #0ACEFE, #0d4678);
+    color: white;
+}
+.hs{
+    box-shadow: 5px 5px 10px 5px rgb(213, 212, 212);
+}
+/*
+Source - https://stackoverflow.com/a
+Posted by Dmitry Efimenko, modified by community. See post 'Timeline' for change history
+Retrieved 2026-01-09, License - CC BY-SA 3.0
+*/
+
+.carousel-inner .carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  }
+  
+  /* project */
+  .pro-1{
+    /* padding: 10px; */
+    background: linear-gradient(to left, #0ACEFE, #0d4678);
+    padding: 10px;
+    
+  }
+  .pro-2{
+    box-shadow: 5px 5px 15px 5px rgb(246, 243, 243);
+
+  }
+  .pro-1 a{
+    text-decoration: none;
+  }
+
+  .hss p{
+    color: rgb(18, 15, 15);
+  }
+  footer a{
+text-decoration: none;
+color: aliceblue;
+  }
+ .f a{
+    padding: 5px;
+ }

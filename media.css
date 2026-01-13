@@ -1,0 +1,151 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+    .b-outer {
+        position: fixed;
+        bottom: 5px;
+        background: linear-gradient(to left, rgb(195, 232, 250), rgb(18, 118, 138));
+        padding-top: 3px;
+        padding-bottom: 3px;
+        /* margin-left: -12px; */
+    }
+
+    .btn {
+        font-size: 12px;
+    }
+
+    .logo {
+        border-bottom: 1px solid black;
+    }
+
+    .name {
+        margin: 4px;
+    }
+
+    .con {
+        font-size: 12px;
+    }
+
+    .pic {
+        border-bottom: 3px solid whitesmoke;
+
+    }
+
+    .car-p {
+        font-size: 8px;
+        margin: 0px;
+        padding: 0px;
+
+    }
+
+    .skill-b {
+        width: 60%;
+    }
+
+    .q {
+        justify-content: center;
+        align-self: center;
+        padding-top: 65px;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 50px;
+        font-family: "Dancing Script", cursive;
+        font-weight: 800;
+        font-size: 16px;
+
+    }
+    .para {
+        padding: 20px 40px;
+    }
+    .vv{
+        font-size: 12px;
+        padding: 30px 40px;
+        height: 300px;
+    }
+    .v{
+        height: 300px;
+    }
+
+}
+
+    @media only screen and (min-width: 674px) {
+        .car {
+            height: 550px;
+
+        }
+    }
+
+
+
+
+
+    @media only screen and (min-width:768px) and (max-width: 991px) {
+        .skill-b {
+            font-size: 12px;
+
+        }
+
+        .q {
+            justify-content: center;
+            align-self: center;
+            padding-top: 65px;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-bottom: 50px;
+            font-family: "Dancing Script", cursive;
+            font-weight: 800;
+            font-size: 20px;
+        }
+        .b button{
+            font-size: 12px;
+        }
+
+    }
+
+    @media only screen and (min-width: 575px) and (max-width: 768px) {
+        .skill-b {
+            width: 60%;
+        }
+
+        .q {
+            justify-content: center;
+            align-self: center;
+            padding-top: 65px;
+            padding-left: 100px;
+            padding-right: 100px;
+            padding-bottom: 50px;
+            font-family: "Dancing Script", cursive;
+            font-weight: 800;
+
+        }
+        .vv{
+            font-size: 12px;
+            padding: 30px 80px;
+        }
+        .b button{
+            font-size: 8px;
+        }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 768px) {
+        .skill-b {
+            font-size: 8px;
+        }
+    }
+   
+
+    @media only screen and (min-width: 575px) and (max-width: 991px) {
+        .para {
+            padding: 60px 100px;
+        }
+        .vv{
+            font-size: 16px;
+        }
+      
+        }
+
+
+        @media only screen and (min-width: 992px) and (max-width: 1200px) {
+        .q{
+            padding: 50px 200px;
+        }
+        
+        }
